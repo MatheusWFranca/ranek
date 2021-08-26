@@ -37,7 +37,6 @@ export default {
   computed: {
     url() {
       const query = serialize(this.$route.query);
-
       return `/produto?_limit=${this.produtosPorPagina}${query}`;
     },
   },
