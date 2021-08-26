@@ -4,7 +4,7 @@
       <img
         v-if="produtos.fotos"
         :src="produto.fotos[0].src"
-        :alt="produto.fotos[0].nome"
+        :alt="produto.fotos[0].titulo"
       />
       <p class="preco">{{ produto.preco }}</p>
       <h2 class="titulo">{{ produto.nome }}</h2>
@@ -14,6 +14,8 @@
 </template>
 
 <script>
+import { api } from '@/services.js';
+
 export default {
   name: 'ProdutosLista',
   data() {
@@ -23,13 +25,10 @@ export default {
   },
   methods: {
     getProdutos() {
-      fetch('http://localhost:3000/produto')
-        .then((response) => {
-          return response.json();
-        })
-        .then((json) => {
-          this.produtos = json;
-        });
+      api.get('/produto').then((response) => {
+        this.produtos = response.data;
+        console.log(response.data);
+      });
     },
   },
   created() {
