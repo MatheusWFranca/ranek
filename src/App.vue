@@ -32,7 +32,7 @@ ul {
 }
 
 body {
-  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #345;
   background: url('./assets/pattern.svg') repeat top;
 }
@@ -58,7 +58,7 @@ img {
   box-shadow: 0 4px 8px rgba(30, 60, 90, 0.2);
   transition: all 0.3s;
   border: none;
-  font-family: 'inter', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
 
