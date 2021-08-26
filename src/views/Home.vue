@@ -22,7 +22,7 @@ export default {
 h1 {
   color: #87f;
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin-top: 40px;
   text-align: center;
 }

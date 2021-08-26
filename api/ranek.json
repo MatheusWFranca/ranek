@@ -1,0 +1,34 @@
+{
+  "usuario": [
+    {
+      "id": "ranek@ranek.com",
+      "nome": "Matheus",
+      "senha": null,
+      "rua": "Rua ali Perto",
+      "cep": "12355678",
+      "numero": "42",
+      "estado": "SP",
+      "cidade": "São Paulo"
+    }
+  ],
+  "produto": [
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "ranek@ranek.com",
+      "preco": 4999,
+      "vendido": "false",
+      "descricao": "Notebook extremamente novo",
+      "foto": null
+    },
+    {
+      "id": "celular",
+      "nome": "Celular",
+      "usuario_id": "ranek@ranek.com",
+      "preco": 1999,
+      "vendido": "false",
+      "descricao": "Celular extremamente novo da apple",
+      "foto": null
+    }
+  ]
+}
