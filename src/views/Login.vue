@@ -36,7 +36,9 @@ export default {
     };
   },
   methods: {
-    logar() {},
+    logar() {
+      this.$store.dispatch('getUsuario', this.login.email);
+    },
   },
 };
 </script>
