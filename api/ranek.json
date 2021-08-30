@@ -9,6 +9,30 @@
       "numero": "42",
       "estado": "SP",
       "cidade": "São Paulo"
+    },
+    {
+      "id": "ciclano@fulano.com",
+      "nome": "fulano",
+      "email": "ciclano@fulano.com",
+      "senha": "123",
+      "cep": "12238120",
+      "rua": "Travessa Pataiba",
+      "numero": "42",
+      "bairro": "Jardim Vale do Sol",
+      "cidade": "São José dos Campos",
+      "estado": "SP"
+    },
+    {
+      "id": "frurano@ranek.com",
+      "nome": "cicrano",
+      "email": "frurano@ranek.com",
+      "senha": "123",
+      "cep": "12238230",
+      "rua": "Rua Abaré",
+      "numero": "42",
+      "bairro": "Jardim Vale do Sol",
+      "cidade": "São José dos Campos",
+      "estado": "SP"
     }
   ],
   "produto": [
