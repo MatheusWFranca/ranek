@@ -1,4 +1,28 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "matheus@ranek.com",
+      "vendedor_id": "ranek@ranek.com",
+      "produto": {
+        "id": "celular",
+        "nome": "Celular",
+        "usuario_id": "ranek@ranek.com",
+        "preco": 1999,
+        "vendido": "false",
+        "descricao": "Celular extremamente novo da apple",
+        "foto": null
+      },
+      "endereco": {
+        "cep": "12226170",
+        "rua": "Rua Ângelo Scarpel",
+        "numero": "44",
+        "bairro": "Parque Nova Esperança",
+        "cidade": "São José dos Campos",
+        "estado": "SP"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "ranek@ranek.com",
