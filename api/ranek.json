@@ -11,26 +11,14 @@
       "cidade": "São Paulo"
     },
     {
-      "id": "ciclano@fulano.com",
-      "nome": "fulano",
-      "email": "ciclano@fulano.com",
+      "id": "matheus@ranek.com",
+      "nome": "Matheus",
+      "email": "matheus@ranek.com",
       "senha": "123",
-      "cep": "12238120",
-      "rua": "Travessa Pataiba",
+      "cep": "12226170",
+      "rua": "Rua Ângelo Scarpel",
       "numero": "42",
-      "bairro": "Jardim Vale do Sol",
-      "cidade": "São José dos Campos",
-      "estado": "SP"
-    },
-    {
-      "id": "frurano@ranek.com",
-      "nome": "cicrano",
-      "email": "frurano@ranek.com",
-      "senha": "123",
-      "cep": "12238230",
-      "rua": "Rua Abaré",
-      "numero": "42",
-      "bairro": "Jardim Vale do Sol",
+      "bairro": "Parque Nova Esperança",
       "cidade": "São José dos Campos",
       "estado": "SP"
     }
@@ -143,6 +131,14 @@
       "vendido": "false",
       "descricao": "Computador extremamente rapido",
       "foto": null
+    },
+    {
+      "nome": "Tablet",
+      "preco": "1230",
+      "descricao": "12312",
+      "fotos": null,
+      "usuario_id": "matheus@ranek.com",
+      "id": "UIBhleO"
     }
   ]
 }
