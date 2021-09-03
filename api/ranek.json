@@ -17,40 +17,25 @@
       "senha": "123",
       "cep": "12226170",
       "rua": "Rua Ângelo Scarpel",
-      "numero": "42",
+      "numero": "44",
       "bairro": "Parque Nova Esperança",
       "cidade": "São José dos Campos",
-      "estado": "SP"
+      "estado": "SP",
+      "usuario": {
+        "id": "",
+        "nome": "",
+        "email": "",
+        "senha": "",
+        "cep": "",
+        "rua": "",
+        "numero": "",
+        "bairro": "",
+        "cidade": "",
+        "estado": ""
+      }
     }
   ],
   "produto": [
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "ranek@ranek.com",
-      "preco": 4999,
-      "vendido": "false",
-      "descricao": "Notebook extremamente novo",
-      "foto": null
-    },
-    {
-      "id": "celular",
-      "nome": "Celular",
-      "usuario_id": "ranek@ranek.com",
-      "preco": 1999,
-      "vendido": "false",
-      "descricao": "Celular extremamente novo da apple",
-      "foto": null
-    },
-    {
-      "id": "computador",
-      "nome": "Computador",
-      "usuario_id": "ranek@ranek.com",
-      "preco": 1999,
-      "vendido": "false",
-      "descricao": "Computador extremamente rapido",
-      "foto": null
-    },
     {
       "id": "notebook",
       "nome": "Notebook",
