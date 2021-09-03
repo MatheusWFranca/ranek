@@ -21,6 +21,28 @@
         "estado": "SP"
       },
       "id": 1
+    },
+    {
+      "comprador_id": "matheu11s@ranek.com",
+      "vendedor_id": "ranek@ranek.com",
+      "produto": {
+        "id": "computador",
+        "nome": "Computador",
+        "usuario_id": "ranek@ranek.com",
+        "preco": 1999,
+        "vendido": "false",
+        "descricao": "Computador extremamente rapido",
+        "foto": null
+      },
+      "endereco": {
+        "cep": "12355678",
+        "rua": "Rua ali Perto",
+        "numero": "42",
+        "bairro": "Parque Nova Esperança",
+        "cidade": "São Paulo",
+        "estado": "SP"
+      },
+      "id": 2
     }
   ],
   "usuario": [
@@ -44,6 +66,30 @@
       "numero": "44",
       "bairro": "Parque Nova Esperança",
       "cidade": "São José dos Campos",
+      "estado": "SP",
+      "usuario": {
+        "id": "",
+        "nome": "",
+        "email": "",
+        "senha": "",
+        "cep": "",
+        "rua": "",
+        "numero": "",
+        "bairro": "",
+        "cidade": "",
+        "estado": ""
+      }
+    },
+    {
+      "id": "matheu11s@ranek.com",
+      "nome": "Matheus",
+      "email": "matheu11s@ranek.com",
+      "senha": 123,
+      "cep": "12355678",
+      "rua": "Rua ali Perto",
+      "numero": "42",
+      "bairro": "Parque Nova Esperança",
+      "cidade": "São Paulo",
       "estado": "SP",
       "usuario": {
         "id": "",
